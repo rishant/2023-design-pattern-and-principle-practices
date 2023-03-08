@@ -1,7 +1,12 @@
 # Pycharm reformat code shortcut:
 
     ctrl+alt+shift+L
-    
+
+# Learning and Code References:
+
+    https://refactoring.guru/design-patterns/java
+	https://refactoring.guru/design-patterns/python
+	
 # SOLID
 
 ## Single Responsibility: [com.principle.solid.single_responsibility]
