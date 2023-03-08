@@ -1,0 +1,16 @@
+from abc import ABC, abstractmethod
+
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+    """
+        Interface Segregation Principle Violation - If we added any New method into existing Interface then All 
+        Implemented classes need to be modify. Instead-of that we can Create separate Interface with the specific 
+        requirement and Implements only those classes which actually needed rather-then all need to modify. 
+    """
+    # @abstractmethod
+    # def volume(self):
+    #     pass
